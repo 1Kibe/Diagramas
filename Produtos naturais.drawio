@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0 (Edition std-1)" version="26.1.1">
   <diagram name="Página-1" id="gPcOB4gUPHv8kBe9rasN">
-    <mxGraphModel dx="2452" dy="2830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2771" dy="3028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -650,7 +650,7 @@
             <mxPoint x="-952" y="-1090" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1032" y="-1140" />
-              <mxPoint x="-1032" y="-1070" />
+              <mxPoint x="-1032" y="-1060" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -890,8 +890,8 @@
             <mxPoint x="-1002" y="-1080" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1062" y="-1130" />
-              <mxPoint x="-1062" y="-1080" />
-              <mxPoint x="-502" y="-1080" />
+              <mxPoint x="-1062" y="-1050" />
+              <mxPoint x="-502" y="-1050" />
               <mxPoint x="-502" y="-950" />
               <mxPoint x="-172" y="-950" />
             </Array>
@@ -978,7 +978,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UIW7ywsqxZE-vaTWVKBW-35" value="Funcionarios" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-912" y="-1260" width="140" height="180" as="geometry" />
+          <mxGeometry x="-912" y="-1250" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="UIW7ywsqxZE-vaTWVKBW-36" value="dataAdmissao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="UIW7ywsqxZE-vaTWVKBW-35" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
