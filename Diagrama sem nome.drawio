@@ -1,10 +1,90 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0 (Edition std-1)" version="26.1.1">
-  <diagram name="Página-1" id="aYSJP1hkoEuV4NbCCl9B">
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Classes" id="classes">
+    <!-- Diagrama de Classes -->
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+
+        <!-- Condomínio -->
+        <mxCell id="condominio" value="Condominio" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Apartamento -->
+        <mxCell id="apartamento" value="Apartamento" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Morador -->
+        <mxCell id="morador" value="Morador" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Área Comum -->
+        <mxCell id="areacomum" value="AreaComum" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Reserva -->
+        <mxCell id="reserva" value="Reserva" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Boleto -->
+        <mxCell id="boleto" value="Boleto" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="1140" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Mensagem -->
+        <mxCell id="mensagem" value="Mensagem" style="shape=swimlane" vertex="1" parent="1">
+          <mxGeometry x="1360" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Relacionamentos -->
+        <mxCell id="rel1" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="condominio" target="apartamento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel2" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="apartamento" target="morador">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel3" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="morador" target="reserva">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel4" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="morador" target="boleto">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel5" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="morador" target="mensagem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel6" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="reserva" target="areacomum">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
+
+  <diagram name="Diagrama de Objetos" id="objetos">
+    <!-- Diagrama de Objetos (exemplos de instâncias) -->
+  </diagram>
+
+  <diagram name="Diagrama de Casos de Uso" id="usecase">
+    <!-- Diagrama de Casos de Uso -->
+  </diagram>
+
+  <diagram name="Diagrama de Sequência" id="sequencia">
+    <!-- Diagrama de Sequência -->
+  </diagram>
+
+  <diagram name="Diagrama de Atividade" id="atividade">
+    <!-- Diagrama de Atividade -->
+  </diagram>
+
 </mxfile>
